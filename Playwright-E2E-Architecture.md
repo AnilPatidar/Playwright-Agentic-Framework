@@ -8,8 +8,7 @@ E2E suite in `src/e2e/`. It's the developer-facing companion to
 
 - **App:** Next.js 14 (App Router) + TypeScript + Mantine v6 + Auth0
 - **E2E:** `@playwright/test` 1.60+
-- **Target environment:** deployed QA app (`https://qa.turbomechanica.ai` /
-  `https://next.turbomechanica.ai`) — there is no local dev server involved;
+- **Target environment:** deployed QA app (``) — there is no local dev server involved;
   Playwright always drives a real deployed environment.
 - **Auth:** pre-authenticated via a saved session at `.auth/admin-state.json`,
   role is switched per-test via a `user_role` cookie (not per-role login).
